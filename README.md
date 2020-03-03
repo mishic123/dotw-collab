@@ -1,5 +1,5 @@
 # Drawing on the Web - Assignment 4
 
-## Drawing on the web collaborative project!
+## Version Control and Collaboration!
 
-[New York University](https://www.nyu.edu/)
+[Original Project](http://i6.cims.nyu.edu/~ms9642/htmlcss/)
