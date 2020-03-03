@@ -1,4 +1,4 @@
-# dotw-collab
+# Drawing on the Web - Assignment 4
 
 ## Drawing on the web collaborative project!
 
