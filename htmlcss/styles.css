@@ -70,5 +70,21 @@ audio {
   top: 250px;
   left: 200px;
   z-index: 100;
+  animation: fly 7s linear infinite;
   transform: rotate(45deg);
+  transform-style: preserve-3d;
+  transition-property: transform;
 }
+
+@keyframes fly{
+  0%{
+    transform:rotateZ(90deg) translateX(-1500px);
+  }
+  50%{
+    transform:rotateZ(45deg) translateX(500);
+  }
+  100%{
+    transform:rotateZ(-25deg) translateX(2000px);
+  }
+}
+
