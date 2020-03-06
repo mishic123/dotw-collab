@@ -76,6 +76,9 @@ audio {
   transition-property: transform;
 }
 
+.contain{
+    animation: speed 7s linear infinite;
+}
 @keyframes fly{
   0%{
     transform:rotateZ(90deg) translateX(-1500px);
@@ -85,6 +88,15 @@ audio {
   }
   100%{
     transform:rotateZ(-25deg) translateX(2000px);
+  }
+}
+
+@keyframes speed{
+  from{
+    transform: translateX(2000px);
+  }
+  to{
+    transform: translateX(-1500px);
   }
 }
 
