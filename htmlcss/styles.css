@@ -1,3 +1,7 @@
+body{
+  overflow: hidden;
+}
+
 .background {
   position: absolute;
   top:0;
@@ -110,7 +114,6 @@ audio{
 
 .float{
 	position:absolute;
-	bottom:-500px;
 	left:200px;
 	width:50%;
 	height: auto;
@@ -148,10 +151,10 @@ audio{
 
 @keyframes up{
   from{
-    transform: translateY(1000px);
+    transform: translateY(800px);
   }
   to{
-    transform: translateY(-500px);
+    transform: translateY(-600px);
   }
 }
 
