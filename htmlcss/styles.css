@@ -6,6 +6,15 @@
   height: 100%;
   object-fit: cover;
   opacity: 1;
+  z-index: -1000;
+}
+
+audio{
+  position:absolute;
+  bottom:0;
+  right:0;
+  mix-blend-mode: lighten;
+  z-index: 9000;
 }
 
 .space {
@@ -18,6 +27,7 @@
   width: 200px;
   height: 200px;
   opacity: 0.5;
+  z-index:-500;
 }
 .earth{
 	position: absolute;
@@ -26,8 +36,8 @@
 	width:100%;
 	height: 100%;
 	object-fit: cover;
-  opacity: 0.5;
-	mix-blend-mode: multiply;
+  opacity: 0.75;
+  z-index:-100;
 }
 
 .stars {
@@ -40,6 +50,7 @@
   height: 200px;
   object-fit: cover;
   opacity: 0.5;
+  z-index: -200;
 }
 .flash {
 	position: absolute;
@@ -61,6 +72,7 @@
   width: 400px;
   height: 400px;
   opacity: 0.55;
+  z-index:-10;
 }
 
 .planet {
@@ -70,6 +82,7 @@
   width: 220px;
   height: 220px;
   opacity: 0.7;
+  z-index:-25;
 }
 
 .stars2 {
@@ -81,6 +94,7 @@
   height: 600px;
   opacity: 0.8;
   transform: rotate(90deg);
+    z-index:-50;
 }
 
 .rocket {
@@ -91,19 +105,17 @@
   left: 200px;
   transition-property: transform;
   transform: rotate(45deg);
-}
-
-.contain{
-    /*animation: speed 7s linear infinite;*/
+  z-index:-5;
 }
 
 .float{
 	position:absolute;
-	bottom:-600px;
+	bottom:-500px;
 	left:200px;
 	width:50%;
 	height: auto;
 	transform:rotate(15deg);
+  z-index:1;
 }
 
 .float-animate{
@@ -143,10 +155,4 @@
   }
 }
 
-
-audio{
-  mix-blend-mode: lighten;
-/*  pointer-events: none;
-  z-index: 8000;*/
-}
 
