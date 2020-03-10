@@ -117,6 +117,8 @@ audio{
 	left:200px;
 	width:50%;
 	height: auto;
+  min-width: 50%;
+  min-height: auto;
 	transform:rotate(15deg);
   z-index:1;
 }
